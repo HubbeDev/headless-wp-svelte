@@ -1,7 +1,7 @@
 {
 	"name": "docs",
 	"version": "0.0.1",
-		"author": {
+	"author": {
 		"name": "HubbeDev",
 		"url": "https://twitter.com/hubbeDev"
 	},
@@ -24,6 +24,10 @@
 		"test:unit": "vitest"
 	},
 	"dependencies": {
+		"clsx": "^2.0.0",
+		"lucide-svelte": "^0.292.0",
+		"tailwind-merge": "^2.0.0",
+		"tailwind-variants": "^0.1.18",
 		"ui": "workspace:*"
 	},
 	"devDependencies": {
@@ -32,12 +36,16 @@
 		"@sveltejs/kit": "^1.20.4",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
+		"autoprefixer": "^10.4.14",
 		"eslint": "^8.28.0",
 		"eslint-config-custom": "workspace:*",
+		"postcss": "^8.4.24",
+		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
+		"tailwindcss": "^3.3.2",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
