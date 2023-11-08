@@ -9,7 +9,9 @@
         "directory": "apps/wp"
     },
     "scripts": {
-        "wp-env": "wp-env"
+        "wp-env": "wp-env",
+        "dev": "wp-env start",
+        "build": "wp-env run build"
     },
     "devDependencies": {
         "@wordpress/env": "^8.7.0"

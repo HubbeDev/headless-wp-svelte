@@ -9,7 +9,7 @@
 wp plugin activate --all
 
 # Activate the Next.js WordPress theme.
-wp theme activate wp-headless-theme
+wp theme activate headless-wp-svelte-theme
 
 # Create pages required pages.
 wp post create --post_type="page" --post_title="Homepage" --post_content="<!-- wp:paragraph --><p>Welcome to the homepage. Feel free to edit this page.</p><!-- /wp:paragraph -->" --post_status="publish"
@@ -22,15 +22,15 @@ wp option update page_on_front 4
 wp option update page_for_posts 5
 
 # Create menus.
-wp menu create "Header"
-wp menu item add-post header 2
-wp menu item add-post header 5
-wp menu location assign header header-menu
-wp menu create "Footer"
-wp menu location assign footer footer-menu
+#wp menu create "Header"
+#wp menu item add-post header 2
+#wp menu item add-post header 5
+#wp menu location assign header header-menu
+#wp menu create "Footer"
+#wp menu location assign footer footer-menu
 
 # Import Custom Post Type.
-wp cptui import --type="post_type" --data-path="./config/cptui-post-types.json"
+#wp cptui import --type="post_type" --data-path="./config/cptui-post-types.json"
 
 # Set permalinks in order to activate REST-API.
 wp rewrite structure "/%year%/%monthnum%/%day%/%postname%/"

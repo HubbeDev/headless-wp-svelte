@@ -2,9 +2,11 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "npm run dev:wordpress && turbo run dev",
+    "dev:wordpress": "cd apps/wp && pnpm run dev && cd ../../",
     "lint": "turbo run lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "setup": "chmod +x setup.sh && ./setup.sh"
   },
   "devDependencies": {
     "eslint": "^8.0.0",

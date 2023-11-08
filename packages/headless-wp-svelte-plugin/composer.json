@@ -1,5 +1,5 @@
 {
-    "name": "hubbedev/headless-wp-plugin",
+    "name": "hubbedev/headless-wp-svelte-plugin",
     "description": "A plugin for sveltekit headless WordPress",
     "type": "wordpress-plugin",
     "license": "MIT",

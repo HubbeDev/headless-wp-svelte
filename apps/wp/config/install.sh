@@ -13,7 +13,7 @@ composer install
 
 # Setup WordPress.
 # https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/
-wp-env start
+pnpm run wp-env start
 
 # Configure WordPress.
-wp-env run cli /bin/bash config/wp-setup.sh
+pnpm run wp-env run cli /bin/bash config/wp-setup.sh

@@ -16,7 +16,7 @@
     },
     {
       "type": "path",
-      "url": "../../packages/headless-wp-svelte-theme",
+      "url": "../../packages/headless-wp-svelte-plugin",
       "options": {
         "symlink": false
       }
