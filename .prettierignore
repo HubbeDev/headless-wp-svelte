@@ -1,6 +1,7 @@
 .DS_Store
 .svelte-kit
 node_modules
+vendor
 /build
 /package
 .env
@@ -13,3 +14,8 @@ pnpm-lock.yaml
 pnpm-workspace.yaml
 package-lock.json
 yarn.lock
+
+
+# wordpress
+apps/wp/wp-content/plugins
+apps/wp/wp-contentwp-content/themes

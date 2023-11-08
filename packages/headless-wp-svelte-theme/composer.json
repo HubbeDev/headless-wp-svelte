@@ -1,0 +1,12 @@
+{
+	"name": "hubbedev/headless-wp-svelte-theme",
+	"description": "A theme for sveltekit headless WordPress",
+	"type": "wordpress-theme",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "HubbeDev",
+			"email": "info@responsivhub.com"
+		}
+	]
+}
