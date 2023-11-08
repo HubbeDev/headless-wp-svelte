@@ -1,0 +1,20 @@
+{
+    "name": "headless-wp",
+    "private": true,
+    "version": "0.0.1",
+    "description": "WP Enviroment with @wordpress/env",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HubbeDev/headless-wp-svelte.git",
+        "directory": "apps/wp"
+    },
+    "scripts": {
+        "wp-env": "wp-env"
+    },
+    "devDependencies": {
+        "@wordpress/env": "^8.7.0"
+    },
+    "dependencies": {
+        "headless-wp": "link:"
+    }
+}
