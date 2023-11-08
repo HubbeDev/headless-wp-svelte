@@ -13,8 +13,5 @@
     },
     "devDependencies": {
         "@wordpress/env": "^8.7.0"
-    },
-    "dependencies": {
-        "headless-wp": "link:"
     }
 }

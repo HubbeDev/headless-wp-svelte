@@ -1,6 +1,6 @@
 {
     "name": "hubbedev/headless-wp-svelte",
-    "description": "A headless WordPress",
+    "description": "A headless WordPress theme with Svelte and TailwindCSS",
     "version": "1.0.0",
     "homepage": "https://github.com/HubbeDev/headless-wp-svelte.git",
     "type": "library",

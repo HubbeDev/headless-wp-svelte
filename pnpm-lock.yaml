@@ -101,6 +101,10 @@ importers:
         version: 0.32.2
 
   apps/wp:
+    dependencies:
+      headless-wp:
+        specifier: 'link:'
+        version: 'link:'
     devDependencies:
       '@wordpress/env':
         specifier: ^8.7.0
