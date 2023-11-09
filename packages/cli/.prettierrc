@@ -1,0 +1,10 @@
+{
+    "useTabs": true,
+    "tabWidth": 4,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "printWidth": 80,
+    "endOfLine": "lf",
+    "pluginSearchDirs": false,
+    "bracketSameLine": false
+}

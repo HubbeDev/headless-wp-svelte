@@ -1,0 +1,32 @@
+{
+    "name": "wp-svelte",
+    "version": "0.0.1",
+    "description": "wp-svelte cli",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HubbeDev/headless-wp-svelte.git",
+        "directory": "packages/cli"
+    },
+    "files": [
+        "dist"
+    ],
+    "exports": "./dist/index.js",
+    "bin": "./dist/index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "tsup --watch",
+        "format": "prettier --write .",
+        "start": "node dist/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.9.0",
+        "eslint-config-custom": "workspace:*",
+        "prettier": "^2.8.0",
+        "tsup": "^7.2.0",
+        "typescript": "^5.0.3"
+    },
+    "dependencies": {
+        "commander": "^11.1.0"
+    }
+}

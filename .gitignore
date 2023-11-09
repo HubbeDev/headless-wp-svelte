@@ -34,3 +34,6 @@ wp-content/
 # turbo
 .turbo
 
+#cli
+dist
+
